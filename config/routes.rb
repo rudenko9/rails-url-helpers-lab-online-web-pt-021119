@@ -6,5 +6,5 @@ end
 
 
 
-#get '/students/:id/activate', to: 'studetns#avtivate', as:'activate_student'
+
 
