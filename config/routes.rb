@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
   resources :students, only: [:index, :show]
-  get '/student/:id/activate', to:'studetns#avtivate', as:'activate_student'
+  get '/student/:id/activate' => 'studetns#avtivate', as:'activate_student'
 end
