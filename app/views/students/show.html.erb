@@ -1,2 +1,3 @@
 <h1><%= @student.to_s %></h1>
-<p><%= @students.show %></p>
+<% if !@student.active %>
+<p> </p>
